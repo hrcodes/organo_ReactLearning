@@ -4,6 +4,10 @@ PROJECT: https://organo-react-learning.vercel.app/
 
 FIGMA: https://www.figma.com/file/T6BLI1HfB81eYOiVgpqQz7/Projeto-Intro-ao-React?node-id=134-128
 
+# ScreenShot
+
+![image](https://user-images.githubusercontent.com/43011938/231317357-9d23fb3c-d429-45d2-9111-23bb0d8be6d0.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
