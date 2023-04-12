@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Banner from "./componentes/Banner";
 import Formulario from "./componentes/Formulario";
 import Time from "./componentes/Time";
@@ -48,6 +48,10 @@ function App() {
   const aoNovoColaboradorAdicionado = (colaborador) => {
     setColaboradores([...colaboradores, colaborador]);
   };
+
+  useEffect(() => {
+    document.title = "hrcodes - Organo React Learning";
+  }, []);
 
   return (
     <div>
