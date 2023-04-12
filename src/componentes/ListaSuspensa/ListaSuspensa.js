@@ -1,8 +1,6 @@
 import "./listaSuspensa.css";
 
 const ListaSuspensa = (props) => {
-  console.log(props);
-
   return (
     <div className="lista-suspensa">
       <label>{props.label}</label>
@@ -11,6 +9,7 @@ const ListaSuspensa = (props) => {
         value={props.valor}
         onChange={(evento) => props.aoAlterado(evento.target.value)}
       >
+        <option value=""></option>
         {props.itens.map((item) => {
           return <option key={item}>{item}</option>;
         })}
